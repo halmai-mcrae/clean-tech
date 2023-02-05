@@ -1,0 +1,18 @@
+footer {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.app__footer-cards {
+  width: fit-content;
+}
+
+.app__footer-card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  rgb(0,128,128) ;
+    color: white;
+  }
