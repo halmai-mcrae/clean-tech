@@ -42,7 +42,6 @@
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 14px;
-
 }
 
 .bold-text {
@@ -50,14 +49,6 @@
   font-weight: 800;
   color: var(--black-color);
   text-align: left;
-
-  @media screen and (min-width: 2000px) {
-    font-size: 2rem;
-  }
-
-  @media screen and (max-width: 450px) {
-    font-size: 0.9rem;
-  }
 }
 
 .app__navigation {
@@ -85,5 +76,6 @@
 
   .copyright {
     padding: 2rem;
+    font-size: 10px;
   }
 }
