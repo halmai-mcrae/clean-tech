@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand as={Link} to="/">
-        <img src={logo} width="45" height="45" alt="Logo" /></Navbar.Brand>
+        <img src={logo} width="50" height="50" alt="Logo" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
