@@ -1,6 +1,7 @@
 footer {
   width: 85%;
-  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
 }
 
 .app__footer-cards {

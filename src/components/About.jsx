@@ -3,7 +3,6 @@ import {
   Container,
   Row,
   Col,
-  Image,
 } from 'react-bootstrap'
 
 // Icons
@@ -11,7 +10,7 @@ import {
   FaEnvira,
   FaCheckCircle,
   FaLayerGroup,
-  FaThumbsUp
+  FaThumbsUp,
 } from 'react-icons/fa'
 // Styles
 import './About.css'
@@ -45,10 +44,14 @@ const About = () => {
               exceptional customer service.
             </p>
             <h4>
-              <FaThumbsUp /> Tested Maintenance Solution
+              <FaThumbsUp /> Tested Maintenance
+              Solution
             </h4>
             <p>
-              Our washes have been tested and assessed as per NZBC C/AS2:2019.Group rating of 2-S on Type 1 or 1-S on Type 3 substrates.
+              Our washes have been tested and
+              assessed as per NZBC
+              C/AS2:2019.Group rating of 2-S on
+              Type 1 or 1-S on Type 3 substrates.
             </p>
             <h4>
               <FaEnvira /> Eco-Friendly
@@ -68,9 +71,8 @@ const About = () => {
               Our single component cleaners are
               designed for easy, thin-coat
               application, making maintenance a
-              breeze.
-              Whether you're working on a new
-              construction project or need
+              breeze. Whether you're working on a
+              new construction project or need
               remediation work done, our solutions
               can be applied both onsite and
               offsite to meet your needs.

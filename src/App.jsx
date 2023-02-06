@@ -1,5 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
+import Image from 'react-bootstrap/Image'
 
 // Components
 import NavBar from './components/NavBar'
@@ -7,16 +8,20 @@ import { AppWrap } from './components/wrapper'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
+import Banner from './components/Banner'
 
 // Styles
 import './App.css'
+
 
 function App() {
   return (
     <>
     <NavBar />
       <div className="App">
-        <header className="App-header"></header>
+        <header className="App-header">
+          <Banner />
+        </header>
       </div>
       {/* Routes */}
       <Routes>

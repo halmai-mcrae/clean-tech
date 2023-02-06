@@ -3,8 +3,10 @@ import {
   Container,
   Row,
   Col,
-  Image,
 } from 'react-bootstrap'
+
+// Components
+import Footer from './Footer'
 
 // Icons
 import { BsShieldFillCheck } from 'react-icons/bs'
@@ -12,15 +14,9 @@ import { IoConstructSharp, IoAddCircle } from 'react-icons/io5'
 
 const Home = () => {
   return (
+    <>
     <Container className="my-5">
       <Row>
-        {/* <Col md={6}>
-        <Image
-          src="company-logo.png"
-          alt="Company Logo"
-          fluid
-        />
-      </Col> */}
         <Col>
           <div className="jumbotron">
             <p>
@@ -66,7 +62,6 @@ const Home = () => {
               available to answer any questions
               and provide the support you need.
             </p>
-
             <h4>
               <BsShieldFillCheck /> Warranty Protection
             </h4>
@@ -85,6 +80,8 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
+    <Footer />
+    </>
   )
 }
 
