@@ -70,7 +70,7 @@ const About = () => {
               up to three months. Whether you're
               managing a new construction project
               or need remediation work done, our
-              solutions can service multiple
+              solutions can serve multiple
               purposes.
             </p>
             <h4>
