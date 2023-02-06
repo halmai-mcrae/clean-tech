@@ -40,12 +40,12 @@ const Contact = () => {
           <FaEnvelope />
           &nbsp;&nbsp;
             <a
-              href="mailto:luke@cleantechmaintenance.co.nz"
+              href="mailto:admin@cleantechmaintenance.co.nz"
               target="_blank"
               className="p-text"
               rel="noreferrer"
             >
-              luke@cleantechmaintenance.co.nz
+              admin@cleantechmaintenance.co.nz
             </a>
           </div>
           </div>

@@ -13,8 +13,8 @@ const AppWrap = (Component, idName, classNames) =>
 
           <div className="copyright">
             <p className="p-text">
-              Copyright © 2022 Clean Tech
-              Maintenance | All Rights Reserved
+              Copyright © 2022 Clean Technologies
+              Ltd | All Rights Reserved
             </p>
             <p className="p-text"></p>
           </div>

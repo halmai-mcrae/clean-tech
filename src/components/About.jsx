@@ -33,11 +33,7 @@ const About = () => {
               Zealand owned and operated company
               that specialises in the maintenance
               of high performance roofing and
-              importing and distributing
-              intumescent coatings under license
-              for the Australasian market.
-            </p>
-            <p>
+              cladding.
               We are a team of highly skilled
               tradespeople who have a passion for
               delivering quality workmanship and
@@ -49,9 +45,9 @@ const About = () => {
             </h4>
             <p>
               Our washes have been tested and
-              assessed as per NZBC
-              C/AS2:2019.Group rating of 2-S on
-              Type 1 or 1-S on Type 3 substrates.
+              assessed as per NZBC C/AS2:2019.
+              Group rating of 2-S on Type 1 or 1-S
+              on Type 3 substrates.
             </p>
             <h4>
               <FaEnvira /> Eco-Friendly
@@ -69,27 +65,21 @@ const About = () => {
             </h4>
             <p>
               Our single component cleaners are
-              designed for easy, thin-coat
-              application, making maintenance a
-              breeze. Whether you're working on a
-              new construction project or need
-              remediation work done, our solutions
-              can be applied both onsite and
-              offsite to meet your needs.
+              designed for easy, slow release
+              application that stays effective for
+              up to three months. Whether you're
+              managing a new construction project
+              or need remediation work done, our
+              solutions can service multiple
+              purposes.
             </p>
-
             <h4>
               <FaLayerGroup /> Multi Substrate
             </h4>
             <p>
               Our washes are suitable for use on
-              plasterboard, fibrous plaster, lath
-              and plaster, fibre cement sheeting,
-              MDF, timber, plywood, OSB, cross
-              laminated timber (CLT), glulam,
-              pressed metal, polyurethane foam,
-              fiberglass, concrete, and structural
-              steel.
+              stainless steel, zinc, aluminium,
+              solar panels and structural steel.
             </p>
           </div>
         </Col>

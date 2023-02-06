@@ -3,6 +3,7 @@ import './NavBar.css'
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from '../assets/logo.svg'
+import infosheet from '../assets/CleanTechInfoSheet.pdf'
 
 
 
@@ -20,7 +21,7 @@ const NavBar = () => {
           <NavDropdown title="Information" id="basic-nav-dropdown">
             <NavDropdown.Item as={Link} to="/about">About</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Download PDF Infosheet</NavDropdown.Item>
+            <NavDropdown.Item href={infosheet} target="_blank">Download PDF Datasheet</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
