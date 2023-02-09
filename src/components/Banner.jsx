@@ -5,7 +5,7 @@ import banner from '../assets/banner.png'
 const Banner = () => {
   return (
     <Container>
-      <Image src={banner} alt="Banner" fluid/>
+      <Image src={banner} alt="Banner" style={{marginTop: "4rem"}} fluid/>
     </Container>
   )
 }

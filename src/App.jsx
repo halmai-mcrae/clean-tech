@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 
 // Components
 import NavBar from './components/NavBar'
-import { AppWrap } from './components/wrapper'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
@@ -38,4 +37,4 @@ function App() {
   )
 }
 
-export default AppWrap(App)
+export default App

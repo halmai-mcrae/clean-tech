@@ -1,5 +1,5 @@
 .container-fluid .jumbotron, .container .jumbotron {
-  border-radius: 6px;
+  border-radius: 5px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -17,7 +17,7 @@
 .jumbotron {
     padding-bottom: 48px;
     padding-top: 48px;
-}
+  }
 }
 
 .jumbotron {
