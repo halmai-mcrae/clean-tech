@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .App-header {
@@ -60,14 +60,13 @@
   padding: 1rem;
 }
 
-  .app__navigation-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #cbcbcb;
-    margin: 0.5rem;
-  }
-
+.app__navigation-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #cbcbcb;
+  margin: 0.5rem;
+}
 
 @media screen and (max-width: 500px) {
   .app__navigation-dot {
