@@ -12,12 +12,13 @@ import {
   FaLayerGroup,
   FaThumbsUp,
 } from 'react-icons/fa'
+import { IoConstructSharp } from 'react-icons/io5'
 // Styles
 import './About.css'
 
 const About = () => {
   return (
-    <Container className="my-5">
+    <Container className="jumbotron">
       <Row>
         {/* <Col md={6}>
           <Image
@@ -27,7 +28,6 @@ const About = () => {
           />
         </Col> */}
         <Col>
-          <div className="jumbotron">
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
@@ -81,9 +81,31 @@ const About = () => {
               stainless steel, zinc, aluminium,
               solar panels and structural steel.
             </p>
-          </div>
+            <h4>
+                <IoConstructSharp /> Durable
+              </h4>
+              <p>
+                We use only the correct materials
+                as specified to ensure your roof
+                stays within its warranty
+                requirements. These products are
+                designed to help withstand our
+                harsh UV and coastal environments
+                here in New Zealand providing
+                long-lasting protection and peace
+                of mind.
+              </p>
+              <p>
+                Please contact us for more
+                information and feel free to
+                download our data information
+                sheets.
+              </p>
         </Col>
       </Row>
+      <p className='copyright'>
+      Copyright © 2022 Clean Technologies Ltd | All Rights Reserved
+      </p>
     </Container>
   )
 }

@@ -4,12 +4,15 @@ import footer from '../assets/footer.png'
 
 const Footer = () => {
   return (
-    <Container className='my-5'>
-      <Image src={footer} alt="footer" fluid/>
-      <p className='copyright'>
-      Copyright © 2022 Clean Technologies Ltd | All Rights Reserved
-      </p>
-    </Container>
+    <>
+      <Image src={footer} alt="footer" fluid />
+      <Container>
+        <p className="copyright">
+          Copyright © 2022 Clean Technologies Ltd
+          | All Rights Reserved
+        </p>
+      </Container>
+    </>
   )
 }
 
