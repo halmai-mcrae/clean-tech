@@ -1,11 +1,18 @@
 import React from 'react'
-import './NavBar.css'
 import { Link } from 'react-router-dom'
 import {
   Navbar,
   Nav,
   NavDropdown,
 } from 'react-bootstrap'
+
+// Icons
+import { FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa'
+
+// Styles
+import './NavBar.css'
+
+// Assets
 import logo from '../assets/logo.svg'
 import infosheet from '../assets/CleanTechInfoSheet.pdf'
 
@@ -48,9 +55,20 @@ const NavBar = () => {
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
+        <Nav className="ml-auto">
+          <Nav.Link  href="tel:+64 27 365 8483">
+            <FaPhone />
+          </Nav.Link>
+          <Nav.Link href="mailto:admin@cleantechmaintenance.co.nz">
+            <FaEnvelope />
+          </Nav.Link>
+          <Nav.Link href="https://linkedin.com/in/example">
+            <FaLinkedin />
+          </Nav.Link>
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   )
-}
+};
 
 export default NavBar
