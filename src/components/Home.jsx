@@ -22,10 +22,10 @@ const Home = () => {
       <Container className="jumbotron">
         <Row>
           <Col>
-            <h4 className="text-center">
+            <h5 className="text-center">
               <IoLogoReact /> Commercial
               Maintenance & Service Plans
-            </h4>
+            </h5>
             <p>
               Clean Tech Wash & Maintenance is a
               dedicated nationwide provider

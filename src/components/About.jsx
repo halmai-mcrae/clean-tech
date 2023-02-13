@@ -19,9 +19,10 @@ import "./About.css"
 
 const About = () => {
   return (
+    <>
     <Container className="jumbotron">
       <Row>
-        {/* <Col md={6}>
+        {/* <Col md={h6}>
           <Image
             src="company-logo.png"
             alt="Company Logo"
@@ -29,7 +30,9 @@ const About = () => {
           />
         </Col> */}
         <Col>
-        <h4 className="text-center"><IoLogoReact/> About</h4>
+        <h4 className="text-center">
+          <IoLogoReact/> 
+          About</h4>
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
@@ -41,31 +44,31 @@ const About = () => {
               delivering quality workmanship and
               exceptional customer service.
             </p>
-            <h5>
+            <h6>
               <FaThumbsUp /> Tested Maintenance
               Solution
-            </h5>
-            <p>
+            </h6>
+            <p className="service-text">
               Our washes have been tested and
               assessed as per NZBC C/AS2:2019.
               Group rating of 2-S on Type 1 or 1-S
               on Type 3 substrates.
             </p>
-            <h5>
+            <h6>
               <FaEnvira /> Eco-Friendly
-            </h5>
-            <p>
+            </h6>
+            <p className="service-text">
               Water-based 100% Asbestos and
               Halogen free Low VOC (Limits, 5 gram
               – 49 gram) Non-Dangerous Good
               according to NZS 5433.
             </p>
 
-            <h5>
+            <h6>
               <FaCheckCircle /> Ease of
               Application
-            </h5>
-            <p>
+            </h6>
+            <p className="service-text">
               Our single component cleaners are
               designed for easy, slow release
               application that stays effective for
@@ -75,18 +78,18 @@ const About = () => {
               solutions can serve multiple
               purposes.
             </p>
-            <h5>
+            <h6>
               <FaLayerGroup /> Multi Substrate
-            </h5>
-            <p>
+            </h6>
+            <p className="service-text">
               Our washes are suitable for use on
               stainless steel, zinc, aluminium,
               solar panels and structural steel.
             </p>
-            <h5>
+            <h6>
                 <IoConstructSharp /> Durable
-              </h5>
-              <p>
+              </h6>
+              <p className="service-text">
                 We use only the correct materials
                 as specified to ensure your roof
                 stays within its warranty
@@ -97,10 +100,10 @@ const About = () => {
                 long-lasting protection and peace
                 of mind.
               </p>
-              <h5>
+              <h6>
               <IoAddCircle /> Reliable
-            </h5>
-            <p>
+            </h6>
+            <p className="service-text">
               When it comes to your maintenance,
               reliability is key. That"s why we
               are committed to providing prompt
@@ -110,7 +113,7 @@ const About = () => {
               available to answer any questions
               and provide the support you need.
             </p>
-              <p>
+              <p className="service-text">
                 Please contact us for more
                 information and feel free to
                 download our data information
@@ -118,10 +121,13 @@ const About = () => {
               </p>
         </Col>
       </Row>
-      <p className="copyright">
+    </Container>
+    <Container>
+            <p className="copyright">
       Copyright © 2022 Clean Technologies Ltd | All Rights Reserved
       </p>
     </Container>
+    </>
   )
 }
 

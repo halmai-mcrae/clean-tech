@@ -101,6 +101,7 @@ const Contact = () => {
               <h5><AiOutlineForm /> Enquiry Form</h5>
               <Form.Control
                 type="text"
+                htmlFor="name"
                 name="from_name"
                 id="from_name"
                 placeholder="Enter your name or company"

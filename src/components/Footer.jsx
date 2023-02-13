@@ -4,9 +4,7 @@ import footer from "../assets/footer.png"
 
 const Footer = () => {
   return (
-    <>
       <Image id="footer" src={footer} alt="footer" fluid />
-    </>
   )
 }
 
