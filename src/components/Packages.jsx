@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react"
 import {
   Container,
   Row,
   Col,
-} from 'react-bootstrap'
+} from "react-bootstrap"
 
 // Icons
-import { BsCheck } from 'react-icons/bs'
-import { AiFillFilePdf } from 'react-icons/ai'
+import { BsCheck } from "react-icons/bs"
+import { AiFillFilePdf } from "react-icons/ai"
 
 // Styles
-import './Packages.css'
-import { IoLogoReact } from 'react-icons/io5'
+import "./Packages.css"
+import { IoLogoReact } from "react-icons/io5"
 
 const Packages = () => {
   return (
@@ -45,7 +45,7 @@ const Packages = () => {
               </li>
             </ul>
             <h6 className="text-center">
-              <a href={''} target="_blank">
+              <a href={""} target="_blank">
                 <AiFillFilePdf /> Download PDF
                 Infosheet.
               </a>
@@ -54,7 +54,7 @@ const Packages = () => {
           <Col className="package-card-1" md={6}>
             <h6
               className="text-center"
-              style={{ whiteSpace: 'nowrap' }}
+              style={{ whiteSpace: "nowrap" }}
             >
               <IoLogoReact /> Existing Structure
               Maintenance Plan
@@ -81,7 +81,7 @@ const Packages = () => {
               </li>
             </ul>
             <h6 className="text-center">
-              <a href={''} target="_blank">
+              <a href={""} target="_blank">
                 <AiFillFilePdf /> Download PDF
                 Infosheet.
               </a>

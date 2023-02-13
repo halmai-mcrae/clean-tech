@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 import {
   Container,
   Row,
   Col,
-} from 'react-bootstrap'
+} from "react-bootstrap"
 
 // Icons
 import {
@@ -11,11 +11,11 @@ import {
   FaCheckCircle,
   FaLayerGroup,
   FaThumbsUp,
-} from 'react-icons/fa'
-import { IoConstructSharp, IoAddCircle, IoLogoReact } from 'react-icons/io5'
+} from "react-icons/fa"
+import { IoConstructSharp, IoAddCircle, IoLogoReact } from "react-icons/io5"
 
 // Styles
-import './About.css'
+import "./About.css"
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
           />
         </Col> */}
         <Col>
-        <h4><IoLogoReact/> About</h4>
+        <h4 className="text-center"><IoLogoReact/> About</h4>
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
@@ -69,7 +69,7 @@ const About = () => {
               Our single component cleaners are
               designed for easy, slow release
               application that stays effective for
-              up to three months. Whether you're
+              up to three months. Whether you"re
               managing a new construction project
               or need remediation work done, our
               solutions can serve multiple
@@ -102,7 +102,7 @@ const About = () => {
             </h5>
             <p>
               When it comes to your maintenance,
-              reliability is key. That's why we
+              reliability is key. That"s why we
               are committed to providing prompt
               and dependable services, no matter
               the size or complexity of the job.
@@ -118,7 +118,7 @@ const About = () => {
               </p>
         </Col>
       </Row>
-      <p className='copyright'>
+      <p className="copyright">
       Copyright © 2022 Clean Technologies Ltd | All Rights Reserved
       </p>
     </Container>

@@ -1,6 +1,6 @@
-import React from 'react'
-import { Image } from 'react-bootstrap'
-import banner from '../assets/banner.png'
+import React from "react"
+import { Image } from "react-bootstrap"
+import banner from "../assets/banner.png"
 
 const Banner = () => {
   return (
@@ -9,8 +9,8 @@ const Banner = () => {
       src={banner}
       alt="Banner"
       style={{
-        marginTop: '5rem',
-        marginBottom: '2rem',
+        marginTop: "5rem",
+        marginBottom: "2rem",
       }}
       fluid
     />

@@ -1,23 +1,23 @@
-import React, { useRef, useState } from 'react'
-import emailjs from '@emailjs/browser'
+import React, { useRef, useState } from "react"
+import emailjs from "@emailjs/browser"
 import {
   Container,
   Row,
   Col,
   Form,
   Button,
-} from 'react-bootstrap'
+} from "react-bootstrap"
 
 // Icons
 import {
   FaPhone,
   FaEnvelope,
-} from 'react-icons/fa'
-import { IoMdContact } from 'react-icons/io'
-import { AiOutlineForm } from 'react-icons/ai'
+} from "react-icons/fa"
+import { IoMdContact } from "react-icons/io"
+import { AiOutlineForm } from "react-icons/ai"
 
 // Styles
-import './Contact.css'
+import "./Contact.css"
 
 const Contact = () => {
   const form = useRef(null)
@@ -29,10 +29,10 @@ const Contact = () => {
     setShowAlert(true)
     emailjs
       .sendForm(
-        'service_it4gqsh',
-        'template_kv5t2hu',
+        "service_it4gqsh",
+        "template_kv5t2hu",
         form.current,
-        'ucKpajsa8GadSBksi'
+        "ucKpajsa8GadSBksi"
       )
       .then(
         (result) => {
@@ -141,7 +141,7 @@ const Contact = () => {
             <Button
               variant="secondary"
               type="submit"
-              style={{ margin: '10px' }}
+              style={{ margin: "10px" }}
             >
               Submit
             </Button>

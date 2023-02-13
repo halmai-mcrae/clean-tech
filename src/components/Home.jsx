@@ -22,21 +22,25 @@ const Home = () => {
       <Container className="jumbotron">
         <Row>
           <Col>
-            <h4>
+            <h4 className="text-center">
               <IoLogoReact /> Commercial
               Maintenance & Service Plans
             </h4>
             <p>
-              Clean Tech Maintenance is a
+              Clean Tech Wash & Maintenance is a
               dedicated nationwide provider
               serving maintenance plans for
-              commercial properties. We specialise
-              in routine maintenance and
-              maintenance plans with the goal to
-              ensure the longevity and durability
-              of your roof and/or cladding to
-              fulfil and uphold the product
-              warranty.
+              commercial properties.
+              We specialise in routine maintenance
+              washes along with annual reports to
+              ensure longevity and the durability
+              of your roof and/or wall cladding.
+              We understand the investment that
+              goes into replacing these materials,
+              so our aim is to maintain and
+              protect these substrates to prolong
+              their life and uphold their material
+              warranties.
             </p>
           </Col>
         </Row>

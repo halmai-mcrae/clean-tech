@@ -1,20 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react"
+import { Link } from "react-router-dom"
 import {
   Navbar,
   Nav,
   NavDropdown,
-} from 'react-bootstrap'
+} from "react-bootstrap"
 
 // Icons
-import { FaPhone, FaEnvelope, FaLinkedin } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa"
 
 // Styles
-import './NavBar.css'
+import "./NavBar.css"
 
 // Assets
-import logo from '../assets/logo.svg'
-import infosheet from '../assets/CleanTechInfoSheet.pdf'
+import logo from "../assets/logo.svg"
+import infosheet from "../assets/CleanTechInfoSheet.pdf"
 
 const NavBar = () => {
   return (
