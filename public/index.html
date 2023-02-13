@@ -33,6 +33,12 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link
+      rel="preload"
+      as="image"
+      href="banner.png"
+      importance="high"
+    />
     <title>Clean Tech</title>
   </head>
   <body>
@@ -50,6 +56,15 @@
         emailjs.init('ucKpajsa8GadSBksi')
       })()
     </script>
+    <img id="banner" style="display:none">
+<script>
+var bannerImage = new Image();
+bannerImage.src = "http://localhost:3000/banner.png";
+bannerImage.onload = function() {
+  document.getElementById("banner").src = bannerImage.src;
+  document.getElementById("banner").style.display = "block";
+};
+</script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

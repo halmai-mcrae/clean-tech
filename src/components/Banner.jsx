@@ -5,10 +5,11 @@ import banner from '../assets/banner.png'
 const Banner = () => {
   return (
     <Image
+      id="banner"
       src={banner}
       alt="Banner"
       style={{
-        marginTop: '6rem',
+        marginTop: '5rem',
         marginBottom: '2rem',
       }}
       fluid
