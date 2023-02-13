@@ -22,7 +22,7 @@ const Home = () => {
       <Container className="jumbotron">
         <Row>
           <Col>
-            <h4 className="text-center">
+            <h4>
               <IoLogoReact /> Commercial
               Maintenance & Service Plans
             </h4>

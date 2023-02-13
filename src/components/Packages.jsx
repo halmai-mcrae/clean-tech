@@ -20,7 +20,7 @@ const Packages = () => {
         <Row>
           <Col className="package-card-0" md={6}>
             <h6 className="text-center">
-              <IoLogoReact /> New Build
+              <IoLogoReact /> New Substrate
               Maintenance Plan
             </h6>
             <hr />

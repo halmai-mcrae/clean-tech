@@ -59,10 +59,19 @@
     <img id="banner" style="display:none">
 <script>
 var bannerImage = new Image();
-bannerImage.src = "http://localhost:3000/banner.png";
+bannerImage.src = "https://cleantechmaintenance.co.nz/banner.png";
 bannerImage.onload = function() {
   document.getElementById("banner").src = bannerImage.src;
   document.getElementById("banner").style.display = "block";
+};
+</script>
+<img id="footer" style="display:none">
+<script>
+var bannerImage = new Image();
+bannerImage.src = "https://cleantechmaintenance.co.nz/footer.png";
+bannerImage.onload = function() {
+  document.getElementById("footer").src = bannerImage.src;
+  document.getElementById("footer").style.display = "block";
 };
 </script>
     <!--

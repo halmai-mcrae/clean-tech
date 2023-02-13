@@ -29,7 +29,7 @@ const About = () => {
           />
         </Col> */}
         <Col>
-        <h4 className='text-center'><IoLogoReact/> About</h4>
+        <h4><IoLogoReact/> About</h4>
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
@@ -41,19 +41,19 @@ const About = () => {
               delivering quality workmanship and
               exceptional customer service.
             </p>
-            <h4>
+            <h5>
               <FaThumbsUp /> Tested Maintenance
               Solution
-            </h4>
+            </h5>
             <p>
               Our washes have been tested and
               assessed as per NZBC C/AS2:2019.
               Group rating of 2-S on Type 1 or 1-S
               on Type 3 substrates.
             </p>
-            <h4>
+            <h5>
               <FaEnvira /> Eco-Friendly
-            </h4>
+            </h5>
             <p>
               Water-based 100% Asbestos and
               Halogen free Low VOC (Limits, 5 gram
@@ -61,10 +61,10 @@ const About = () => {
               according to NZS 5433.
             </p>
 
-            <h4>
+            <h5>
               <FaCheckCircle /> Ease of
               Application
-            </h4>
+            </h5>
             <p>
               Our single component cleaners are
               designed for easy, slow release
@@ -75,17 +75,17 @@ const About = () => {
               solutions can serve multiple
               purposes.
             </p>
-            <h4>
+            <h5>
               <FaLayerGroup /> Multi Substrate
-            </h4>
+            </h5>
             <p>
               Our washes are suitable for use on
               stainless steel, zinc, aluminium,
               solar panels and structural steel.
             </p>
-            <h4>
+            <h5>
                 <IoConstructSharp /> Durable
-              </h4>
+              </h5>
               <p>
                 We use only the correct materials
                 as specified to ensure your roof
@@ -97,9 +97,9 @@ const About = () => {
                 long-lasting protection and peace
                 of mind.
               </p>
-              <h4>
+              <h5>
               <IoAddCircle /> Reliable
-            </h4>
+            </h5>
             <p>
               When it comes to your maintenance,
               reliability is key. That's why we
