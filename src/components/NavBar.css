@@ -12,3 +12,10 @@
   padding-right: 30px;
   font-size: larger;
 }
+
+@media screen and (max-width: 767px) {
+  .ml-auto {
+    display: none;
+  }
+}
+  
