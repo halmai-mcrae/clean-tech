@@ -13,6 +13,8 @@ import {
   FaPhone,
   FaEnvelope,
 } from 'react-icons/fa'
+import { IoMdContact } from 'react-icons/io'
+import { AiOutlineForm } from 'react-icons/ai'
 
 // Styles
 import './Contact.css'
@@ -47,7 +49,7 @@ const Contact = () => {
     <Container>
       <Row>
         <Col md={6}>
-          <h5>Contact Us</h5>
+          <h5><IoMdContact/> Contact Us</h5>
           <p>
             Fill out the contact form or send a
             text.
@@ -95,10 +97,8 @@ const Contact = () => {
         </Col>
         <Col md={6}>
           <Form ref={form} onSubmit={sendEmail}>
-            <Form.Group controlId="formBasicName">
-              <Form.Label>
-                <h6>Name</h6>
-              </Form.Label>
+            <Form.Group>
+              <h5><AiOutlineForm /> Enquiry Form</h5>
               <Form.Control
                 type="text"
                 name="from_name"
@@ -106,38 +106,36 @@ const Contact = () => {
                 placeholder="Enter your name or company"
               />
             </Form.Group>
-            <Form.Group controlId="formBasicPhone">
+            <Form.Group>
               <Form.Label>
-                <h6>Phone</h6>
               </Form.Label>
               <Form.Control
                 type="text"
-                for="phone"
+                htmlFor="phone"
                 name="phone"
                 id="phone"
                 placeholder="Enter phone number"
               />
             </Form.Group>
-            <Form.Group controlId="formBasicEmail">
+            <Form.Group>
               <Form.Label>
-                <h6>Email</h6>
               </Form.Label>
               <Form.Control
                 type="email"
-                for="reply_to"
+                htmlFor="reply_to"
                 name="reply_to"
                 id="reply_to"
                 placeholder="Enter email address"
               />
             </Form.Group>
-            <Form.Group controlId="formBasicPassword">
+            <Form.Group>
               <Form.Label>
-                <h6>Message</h6>
               </Form.Label>
               <Form.Control
                 as="textarea"
                 name="message"
                 rows={3}
+                placeholder="Please type your message here..."
               />
             </Form.Group>
             <Button

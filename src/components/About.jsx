@@ -12,7 +12,8 @@ import {
   FaLayerGroup,
   FaThumbsUp,
 } from 'react-icons/fa'
-import { IoConstructSharp } from 'react-icons/io5'
+import { IoConstructSharp, IoAddCircle, IoLogoReact } from 'react-icons/io5'
+
 // Styles
 import './About.css'
 
@@ -28,6 +29,7 @@ const About = () => {
           />
         </Col> */}
         <Col>
+        <h4 className='text-center'><IoLogoReact/> About</h4>
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
@@ -95,6 +97,19 @@ const About = () => {
                 long-lasting protection and peace
                 of mind.
               </p>
+              <h4>
+              <IoAddCircle /> Reliable
+            </h4>
+            <p>
+              When it comes to your maintenance,
+              reliability is key. That's why we
+              are committed to providing prompt
+              and dependable services, no matter
+              the size or complexity of the job.
+              Our team of experts is always
+              available to answer any questions
+              and provide the support you need.
+            </p>
               <p>
                 Please contact us for more
                 information and feel free to
