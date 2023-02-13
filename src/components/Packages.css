@@ -1,0 +1,47 @@
+.container-fluid .package-card-0,
+.container .package-card-0,
+.container-fluid .package-card-1,
+.container .package-card-1 {
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container-fluid .package-card-0,
+  .container .package-card-0,
+  .container-fluid .package-card-1,
+  .container .package-card-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.package-card-0 {
+  background-color: #3c8297;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: white;
+  border: white 1px solid;
+}
+
+.package-card-1 {
+  background-color: #b65d29;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: white;
+  border: white 1px solid;
+}
