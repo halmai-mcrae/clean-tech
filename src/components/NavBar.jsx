@@ -20,6 +20,10 @@ const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
   const navbarRef = useRef(null);
 
+  const handleLinkClick = () => {
+    setExpanded(false);
+  };
+
   useEffect(() => {
     const handleDocumentClick = (event) => {
       if (navbarRef.current && !navbarRef.current.contains(event.target)) {
@@ -47,10 +51,10 @@ const NavBar = () => {
       onClick={() => setExpanded(expanded ? false : "expanded")}/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link as={Link} to="/">
+          <Nav.Link as={Link} to="/" onClick={handleLinkClick}>
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/contact">
+          <Nav.Link as={Link} to="/contact" onClick={handleLinkClick}>
             Contact
           </Nav.Link>
           <NavDropdown
@@ -60,6 +64,7 @@ const NavBar = () => {
             <NavDropdown.Item
               as={Link}
               to="/about"
+              onClick={handleLinkClick}
             >
               About
             </NavDropdown.Item>
