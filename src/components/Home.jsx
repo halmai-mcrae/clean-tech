@@ -13,6 +13,9 @@ import Packages from './Packages'
 // Icons
 import { IoLogoReact } from 'react-icons/io5'
 
+// Styles
+import './Home.css'
+
 const Home = () => {
   const Services = lazy(() =>
     import('./Services')
@@ -30,16 +33,16 @@ const Home = () => {
               Clean Tech Wash & Maintenance is a
               dedicated nationwide provider
               serving maintenance plans for
-              commercial properties.
-              We specialise in routine maintenance
-              washes along with annual reports to
-              ensure longevity and the durability
-              of your roof and/or wall cladding.
-              We understand the investment that
-              goes into replacing these materials,
-              so our aim is to maintain and
-              protect these substrates to prolong
-              their life and uphold their material
+              commercial properties. We specialise
+              in routine maintenance washes along
+              with annual reports to ensure
+              longevity and the durability of your
+              roof and/or wall cladding. We
+              understand the investment that goes
+              into replacing these materials, so
+              our aim is to maintain and protect
+              these substrates to prolong their
+              life and uphold their material
               warranties.
             </p>
           </Col>

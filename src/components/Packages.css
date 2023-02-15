@@ -22,6 +22,16 @@ li {
   }
 }
 
+@media screen and (max-width: 490px) {
+  .package-card-0,
+  .package-card-1,
+  p,
+  li {
+    font-size: 11px;
+    max-height: 37vh;
+  }
+}
+
 .package-card-0 {
   background-color: #3c8297;
   padding: 30px;
