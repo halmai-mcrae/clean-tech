@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import {
   Navbar,
@@ -17,8 +17,24 @@ import logo from "../assets/logo.svg"
 import infosheet from "../assets/CleanTechInfoSheet.pdf"
 
 const NavBar = () => {
+  const [expanded, setExpanded] = useState(false);
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    const handleDocumentClick = (event) => {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setExpanded(false);
+      }
+    };
+
+    document.addEventListener('click', handleDocumentClick);
+
+    return () => {
+      document.removeEventListener('click', handleDocumentClick);
+    };
+  }, []);
   return (
-    <Navbar expand="lg">
+    <Navbar ref={navbarRef} expand="lg" expanded={expanded}>
       <Navbar.Brand as={Link} to="/">
         <img
           src={logo}
@@ -27,7 +43,8 @@ const NavBar = () => {
           alt="Logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" 
+      onClick={() => setExpanded(expanded ? false : "expanded")}/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/">
