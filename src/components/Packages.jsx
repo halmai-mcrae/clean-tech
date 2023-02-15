@@ -8,10 +8,10 @@ import {
 // Icons
 import { BsCheck } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
+import { MdOutlineOtherHouses, MdOtherHouses } from "react-icons/md"
 
 // Styles
 import "./Packages.css"
-import { IoLogoReact } from "react-icons/io5"
 
 const Packages = () => {
   return (
@@ -20,7 +20,7 @@ const Packages = () => {
         <Row>
           <Col className="package-card-0" md={6}>
             <h6 className="text-center">
-              <IoLogoReact /> New Substrate
+              <MdOutlineOtherHouses /> New Substrate
               Maintenance Plan
             </h6>
             <hr />
@@ -56,7 +56,7 @@ const Packages = () => {
               className="text-center"
               style={{ whiteSpace: "nowrap" }}
             >
-              <IoLogoReact /> Existing Structure
+              <MdOtherHouses /> Existing Structure
               Maintenance Plan
             </h6>
             <hr />
