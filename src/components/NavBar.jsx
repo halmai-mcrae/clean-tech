@@ -1,60 +1,103 @@
-import React, { useState, useEffect, useRef } from "react"
-import { Link } from "react-router-dom"
+import React, {
+  useState,
+  useEffect,
+  useRef,
+} from 'react'
+import { Link } from 'react-router-dom'
 import {
   Navbar,
   Nav,
   NavDropdown,
-} from "react-bootstrap"
+} from 'react-bootstrap'
 
 // Icons
-import { FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa"
+import {
+  FaPhone,
+  FaEnvelope,
+  FaLinkedin,
+} from 'react-icons/fa'
 
 // Styles
-import "./NavBar.css"
+import './NavBar.css'
 
 // Assets
-import logo from "../assets/logo.svg"
-import infosheet from "../assets/CleanTechInfoSheet.pdf"
+import logo from '../assets/logo.svg'
+import infosheet from '../assets/CleanTechInfoSheet.pdf'
 
 const NavBar = () => {
-  const [expanded, setExpanded] = useState(false);
-  const navbarRef = useRef(null);
+  const [expanded, setExpanded] = useState(false)
+  const navbarRef = useRef(null)
 
   const handleLinkClick = () => {
-    setExpanded(false);
-  };
+    setExpanded(false)
+  }
 
   useEffect(() => {
     const handleDocumentClick = (event) => {
-      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
-        setExpanded(false);
+      if (
+        navbarRef.current &&
+        !navbarRef.current.contains(event.target)
+      ) {
+        setExpanded(false)
       }
-    };
+    }
 
-    document.addEventListener('click', handleDocumentClick);
+    document.addEventListener(
+      'click',
+      handleDocumentClick
+    )
 
     return () => {
-      document.removeEventListener('click', handleDocumentClick);
-    };
-  }, []);
+      document.removeEventListener(
+        'click',
+        handleDocumentClick
+      )
+    }
+  }, [])
   return (
-    <Navbar ref={navbarRef} expand="lg" expanded={expanded}>
+    <Navbar
+      ref={navbarRef}
+      expand="lg"
+      expanded={expanded}
+    >
       <Navbar.Brand as={Link} to="/">
         <img
           src={logo}
-          width="60"
-          height="60"
+          width="50"
+          height="55"
           alt="Logo"
         />
+        CLEAN
+        <span
+          style={{
+            color: '#3c8297',
+          }}
+        >
+          TECH
+        </span>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" 
-      onClick={() => setExpanded(expanded ? false : "expanded")}/>
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        onClick={() =>
+          setExpanded(
+            expanded ? false : 'expanded'
+          )
+        }
+      />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link as={Link} to="/" onClick={handleLinkClick}>
+          <Nav.Link
+            as={Link}
+            to="/"
+            onClick={handleLinkClick}
+          >
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/contact" onClick={handleLinkClick}>
+          <Nav.Link
+            as={Link}
+            to="/contact"
+            onClick={handleLinkClick}
+          >
             Contact
           </Nav.Link>
           <NavDropdown
@@ -78,7 +121,7 @@ const NavBar = () => {
           </NavDropdown>
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link  href="tel:+64 27 365 8483">
+          <Nav.Link href="tel:+64 27 365 8483">
             <FaPhone />
           </Nav.Link>
           <Nav.Link href="mailto:admin@cleantechmaintenance.co.nz">

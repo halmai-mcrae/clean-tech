@@ -1,23 +1,23 @@
-import React, { useRef, useState } from "react"
-import emailjs from "@emailjs/browser"
+import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
 import {
   Container,
   Row,
   Col,
   Form,
   Button,
-} from "react-bootstrap"
+} from 'react-bootstrap'
 
 // Icons
 import {
   FaPhone,
   FaEnvelope,
-} from "react-icons/fa"
-import { IoMdContact } from "react-icons/io"
-import { AiOutlineForm } from "react-icons/ai"
+} from 'react-icons/fa'
+import { IoMdContact } from 'react-icons/io'
+import { AiOutlineForm } from 'react-icons/ai'
 
 // Styles
-import "./Contact.css"
+import './Contact.css'
 
 const Contact = () => {
   const form = useRef(null)
@@ -29,10 +29,10 @@ const Contact = () => {
     setShowAlert(true)
     emailjs
       .sendForm(
-        "service_it4gqsh",
-        "template_kv5t2hu",
+        'service_it4gqsh',
+        'template_kv5t2hu',
         form.current,
-        "ucKpajsa8GadSBksi"
+        'ucKpajsa8GadSBksi'
       )
       .then(
         (result) => {
@@ -49,7 +49,9 @@ const Contact = () => {
     <Container>
       <Row>
         <Col md={6}>
-          <h5><IoMdContact/> Contact Us</h5>
+          <h5>
+            <IoMdContact /> Contact Us
+          </h5>
           <p>
             Fill out the contact form or send a
             text.
@@ -98,7 +100,9 @@ const Contact = () => {
         <Col md={6}>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group>
-              <h5><AiOutlineForm /> Enquiry Form</h5>
+              <h5>
+                <AiOutlineForm /> Enquiry Form
+              </h5>
               <Form.Control
                 type="text"
                 htmlFor="name"
@@ -108,8 +112,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group>
-              <Form.Label>
-              </Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control
                 type="text"
                 htmlFor="phone"
@@ -119,8 +122,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group>
-              <Form.Label>
-              </Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control
                 type="email"
                 htmlFor="reply_to"
@@ -130,8 +132,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Form.Group>
-              <Form.Label>
-              </Form.Label>
+              <Form.Label></Form.Label>
               <Form.Control
                 as="textarea"
                 name="message"
@@ -142,7 +143,7 @@ const Contact = () => {
             <Button
               variant="secondary"
               type="submit"
-              style={{ margin: "10px" }}
+              style={{ margin: '10px' }}
             >
               Submit
             </Button>
@@ -158,8 +159,8 @@ const Contact = () => {
         </Col>
       </Row>
       <p className="copyright">
-        Copyright © 2022 Clean Technologies Ltd |
-        All Rights Reserved
+        © 2022 Clean Technologies Ltd | All Rights
+        Reserved
       </p>
     </Container>
   )

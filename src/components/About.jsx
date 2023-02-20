@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react'
 import {
   Container,
   Row,
   Col,
-} from "react-bootstrap"
+} from 'react-bootstrap'
 
 // Icons
 import {
@@ -11,38 +11,43 @@ import {
   FaCheckCircle,
   FaLayerGroup,
   FaThumbsUp,
-} from "react-icons/fa"
-import { IoConstructSharp, IoAddCircle, IoLogoReact } from "react-icons/io5"
+} from 'react-icons/fa'
+import {
+  IoConstructSharp,
+  IoAddCircle,
+  IoLogoReact,
+} from 'react-icons/io5'
 
 // Styles
-import "./About.css"
+import './About.css'
 
 const About = () => {
   return (
     <>
-    <Container className="jumbotron">
-      <Row>
-        {/* <Col md={h6}>
+      <h4 className="text-center">
+        <IoLogoReact />
+        About
+      </h4>
+      <Container className="jumbotron">
+        <Row>
+          {/* <Col md={h6}>
           <Image
             src="company-logo.png"
             alt="Company Logo"
             fluid
           />
         </Col> */}
-        <Col>
-        <h4 className="text-center">
-          <IoLogoReact/> 
-          About</h4>
+          <Col>
             <p>
               Clean Tech Maintenance is a New
               Zealand owned and operated company
               that specialises in the maintenance
               of high performance roofing and
-              cladding.
-              We are a team of highly skilled
-              tradespeople who have a passion for
-              delivering quality workmanship and
-              exceptional customer service.
+              cladding. We are a team of highly
+              skilled tradespeople who have a
+              passion for delivering quality
+              workmanship and exceptional customer
+              service.
             </p>
             <h6>
               <FaThumbsUp /> Tested Maintenance
@@ -87,20 +92,19 @@ const About = () => {
               solar panels and structural steel.
             </p>
             <h6>
-                <IoConstructSharp /> Durable
-              </h6>
-              <p className="service-text">
-                We use only the correct materials
-                as specified to ensure your roof
-                stays within its warranty
-                requirements. These products are
-                designed to help withstand our
-                harsh UV and coastal environments
-                here in New Zealand providing
-                long-lasting protection and peace
-                of mind.
-              </p>
-              <h6>
+              <IoConstructSharp /> Durable
+            </h6>
+            <p className="service-text">
+              We use only the correct materials as
+              specified to ensure your roof stays
+              within its warranty requirements.
+              These products are designed to help
+              withstand our harsh UV and coastal
+              environments here in New Zealand
+              providing long-lasting protection
+              and peace of mind.
+            </p>
+            <h6>
               <IoAddCircle /> Reliable
             </h6>
             <p className="service-text">
@@ -113,20 +117,21 @@ const About = () => {
               available to answer any questions
               and provide the support you need.
             </p>
-              <p className="service-text">
-                Please contact us for more
-                information and feel free to
-                download our data information
-                sheets.
-              </p>
-        </Col>
-      </Row>
-    </Container>
-    <Container>
-            <p className="copyright">
-      Copyright © 2022 Clean Technologies Ltd | All Rights Reserved
-      </p>
-    </Container>
+            <p className="service-text">
+              Please contact us for more
+              information and feel free to
+              download our data information
+              sheets.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <p className="copyright">
+          Copyright © 2022 Clean Technologies Ltd
+          | All Rights Reserved
+        </p>
+      </Container>
     </>
   )
 }

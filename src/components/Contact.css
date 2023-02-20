@@ -8,22 +8,26 @@ footer {
 }
 
 .app__footer-card {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #3c8297;
-    color: white;
-  }
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(
+    to left,
+    #3c8297,
+    #276578
+  );
+  color: white;
+}
 
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width: 876px) {
   a {
-    text-decoration: none;
-    font-weight: 500;
-    color: white;
+    font-size: 10px;
   }
-
-  @media (max-width: 876px) {
-    a {
-      font-size: 10px;
-    }
-  }
+}

@@ -33,19 +33,65 @@ li {
 }
 
 .package-card-0 {
-  background-color: #3c8297;
+  /* background-color: #3c8297; */
   padding: 30px;
   margin-bottom: 20px;
   font-size: 14px;
   color: white;
-  border: white 1px solid;
+  border: white 2px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.package-card-0:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+
+.package-card-0:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    45deg,
+    #3c8297 70%,
+    #276578 30%
+  );
 }
 
 .package-card-1 {
-  background-color: #b65d29;
+  background: linear-gradient(
+    to bottom,
+    #d8761b,
+    #bb6616,
+    #a64c02
+  );
   padding: 30px;
   margin-bottom: 20px;
   font-size: 14px;
   color: white;
-  border: white 1px solid;
+  border: white 2px solid;
+}
+
+/* TEST container */
+.package-card-2 {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
 }

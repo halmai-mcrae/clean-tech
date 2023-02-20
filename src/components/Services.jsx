@@ -1,34 +1,34 @@
-import React from "react"
+import React from 'react'
 import {
   Container,
   Image,
   Col,
   Row,
-} from "react-bootstrap"
+} from 'react-bootstrap'
 
 // Photos
-import cleantech0 from "../assets/cleantech0.png"
-import cleantech1 from "../assets/cleantech1.png"
-import cleantech2 from "../assets/cleantech2.png"
-import cleantech3 from "../assets/cleantech3.png"
+import cleantech0 from '../assets/cleantech0.png'
+import cleantech1 from '../assets/cleantech1.png'
+import cleantech2 from '../assets/cleantech2.png'
+import cleantech3 from '../assets/cleantech3.png'
 // import cleantech4 from "../assets/cleantech4.png"
 
 //icons
-import { GrBusinessService } from "react-icons/gr"
-import { MdOutlineHealthAndSafety } from "react-icons/md"
-import { GiSolarPower } from "react-icons/gi"
-import { SiSeat } from "react-icons/si"
-import { BsShieldFillCheck } from "react-icons/bs"
+import { GrBusinessService } from 'react-icons/gr'
+import { MdOutlineHealthAndSafety } from 'react-icons/md'
+import { GiSolarPower } from 'react-icons/gi'
+import { SiSeat } from 'react-icons/si'
+import { BsShieldFillCheck } from 'react-icons/bs'
 
-import "./Services.css"
+import './Services.css'
 
 const Services = () => {
   return (
     <>
+      <h4 className="text-center">
+        <GrBusinessService /> Our Services
+      </h4>
       <Container className="jumbotron">
-        <h4 className="text-center">
-          <GrBusinessService /> Our Services
-        </h4>
         <Row>
           <Col md={6}>
             <Image
@@ -74,7 +74,7 @@ const Services = () => {
               Work Act 2015. We are active members
               of NZ Site Safe and all our
               employees are IRATA working at
-              heights qualified.{" "}
+              heights qualified.{' '}
             </p>
             <p className="service-text">
               Safe accessibility and a stable
