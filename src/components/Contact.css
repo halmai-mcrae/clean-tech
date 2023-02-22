@@ -1,13 +1,12 @@
 footer {
   width: 85%;
-  font-size: 14px;
 }
 
-.app__footer-cards {
+.contact-cards {
   width: fit-content;
 }
 
-.app__footer-card {
+.contact-card {
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 5px;
@@ -20,14 +19,7 @@ footer {
   color: white;
 }
 
-a {
+.contact-card a {
   text-decoration: none;
-  font-weight: 500;
   color: white;
-}
-
-@media (max-width: 876px) {
-  a {
-    font-size: 10px;
-  }
 }

@@ -11,7 +11,6 @@
 .ml-auto {
   margin-left: auto;
   padding-right: 30px;
-  font-size: larger;
 }
 
 @media screen and (max-width: 767px) {

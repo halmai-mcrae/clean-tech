@@ -49,9 +49,9 @@ const Contact = () => {
     <Container>
       <Row>
         <Col md={6}>
-          <h5>
+          <h4>
             <IoMdContact /> Contact Us
-          </h5>
+          </h4>
           <p>
             Fill out the contact form or send a
             text.
@@ -59,8 +59,8 @@ const Contact = () => {
           <p>
             We aim to respond within 24 hours.
           </p>
-          <div className="app__footer-cards">
-            <div className="app__footer-card">
+          <div className="contact-cards">
+            <div className="contact-card">
               <FaPhone />
               &nbsp;&nbsp;
               <a
@@ -71,7 +71,7 @@ const Contact = () => {
                 +64 27 365 8483
               </a>
             </div>
-            <div className="app__footer-card">
+            <div className="contact-card">
               <FaEnvelope />
               &nbsp;&nbsp;
               <a
@@ -100,9 +100,9 @@ const Contact = () => {
         <Col md={6}>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group>
-              <h5>
+              <h4>
                 <AiOutlineForm /> Enquiry Form
-              </h5>
+              </h4>
               <Form.Control
                 type="text"
                 htmlFor="name"

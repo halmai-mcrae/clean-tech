@@ -88,3 +88,8 @@ li {
   position: relative;
   z-index: 2;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
