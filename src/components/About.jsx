@@ -28,15 +28,9 @@ const About = () => {
         <IoLogoReact />
         About
       </h4>
+      <br />
       <Container className="jumbotron">
         <Row>
-          {/* <Col md={h6}>
-          <Image
-            src="company-logo.png"
-            alt="Company Logo"
-            fluid
-          />
-        </Col> */}
           <Col>
             <p>
               Clean Tech Maintenance is a New

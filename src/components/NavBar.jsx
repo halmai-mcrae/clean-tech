@@ -67,13 +67,19 @@ const NavBar = () => {
           height="55"
           alt="Logo"
         />
-        CLEAN
         <span
           style={{
-            color: '#3c8297',
+            fontWeight: 'bold',
           }}
         >
-          TECH
+          CLEAN
+          <span
+            style={{
+              color: '#3c8297',
+            }}
+          >
+            TECH
+          </span>
         </span>
       </Navbar.Brand>
       <Navbar.Toggle

@@ -1,19 +1,27 @@
-import React from "react"
-import { Image } from "react-bootstrap"
-import banner from "../assets/banner.png"
+import React from 'react'
+import { Image } from 'react-bootstrap'
+
+// Assets
+import banner from '../assets/banner.png'
+
+// Styles
+import './Banner.css'
 
 const Banner = () => {
   return (
-    <Image
-      id="banner"
-      src={banner}
-      alt="Banner"
-      style={{
-        marginTop: "5rem",
-        marginBottom: "2rem",
-      }}
-      fluid
-    />
+    <div className="banner-container">
+      <Image
+        id="banner"
+        src={banner}
+        alt="Banner"
+        style={{
+          marginTop: '5rem',
+        }}
+        fluid
+      />
+      <h1>Commercial Roof Maintenance.</h1>
+      <h3>Nationwide New Zealand.</h3>
+    </div>
   )
 }
 

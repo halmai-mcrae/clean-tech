@@ -1,0 +1,28 @@
+.banner-container {
+  position: relative;
+  background: #e5e5e5;
+}
+
+.banner-container h1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 5vw;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  white-space: nowrap;
+  color: white;
+}
+
+.banner-container h3 {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 4vw;
+  white-space: nowrap;
+  color: #e16314;
+}

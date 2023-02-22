@@ -13,9 +13,6 @@ import Packages from './Packages'
 // Icons
 import { IoLogoReact } from 'react-icons/io5'
 
-// Styles
-import './Home.css'
-
 const Home = () => {
   const Services = lazy(() =>
     import('./Services')
@@ -29,6 +26,8 @@ const Home = () => {
               <IoLogoReact /> Commercial
               Maintenance & Service Plans
             </h4>
+            <br />
+            <brk />
             <p>
               Clean Tech Wash & Maintenance is a
               dedicated nationwide provider
