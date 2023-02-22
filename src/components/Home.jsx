@@ -19,7 +19,7 @@ const Home = () => {
   )
   return (
     <>
-      <Container className="my-5">
+      <Container>
         <Row>
           <Col>
             <h4 className="text-center">
@@ -27,7 +27,6 @@ const Home = () => {
               Maintenance & Service Plans
             </h4>
             <br />
-            <brk />
             <p>
               Clean Tech Wash & Maintenance is a
               dedicated nationwide provider
@@ -40,10 +39,11 @@ const Home = () => {
               understand the investment that goes
               into replacing these materials, so
               our aim is to maintain and protect
-              these substrates to prolong their
+              your substrates to prolong their
               life and uphold their material
               warranties.
             </p>
+            <br />
           </Col>
         </Row>
       </Container>

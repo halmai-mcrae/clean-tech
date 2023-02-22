@@ -46,12 +46,13 @@ const Contact = () => {
   }
 
   return (
-    <Container>
+    <Container className="contact">
       <Row>
         <Col md={6}>
           <h4>
             <IoMdContact /> Contact Us
           </h4>
+          <br />
           <p>
             Fill out the contact form or send a
             text.
@@ -103,6 +104,7 @@ const Contact = () => {
               <h4>
                 <AiOutlineForm /> Enquiry Form
               </h4>
+              <br />
               <Form.Control
                 type="text"
                 htmlFor="name"

@@ -2,6 +2,10 @@ footer {
   width: 85%;
 }
 
+.contact {
+  margin-top: 1rem;
+}
+
 .contact-cards {
   width: fit-content;
 }
