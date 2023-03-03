@@ -46,7 +46,7 @@ const Contact = () => {
   }
 
   return (
-    <Container className="contact">
+    <Container>
       <Row>
         <Col md={6}>
           <h4>
@@ -85,6 +85,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
+          <br />
           {/* <h5>Links</h5>
           <ul className="list-unstyled">
             <li>
