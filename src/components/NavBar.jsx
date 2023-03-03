@@ -69,7 +69,7 @@ const NavBar = () => {
         />
         <span
           style={{
-            fontWeight: '800',
+            fontWeight: '700',
           }}
         >
           CLEAN

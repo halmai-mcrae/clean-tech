@@ -10,7 +10,6 @@ import {
 import Contact from './Contact'
 import Footer from './Footer'
 import Packages from './Packages'
-import Links from './Links'
 
 // Icons
 import { IoLogoReact } from 'react-icons/io5'
@@ -65,12 +64,6 @@ const Home = () => {
           </Col>
         </Row>
         <hr />
-        <Suspense
-          fallback={<div>Loading...</div>}
-        >
-          <Links />
-        </Suspense>
-        <hr />
       </Container>
       <Container>
         <Row>
@@ -78,7 +71,7 @@ const Home = () => {
             <IoLogoReact /> Commercial Service
             Plans
           </h4>
-          <Col className="jumbotron">
+          <Col>
             <p>
               Clean Tech Wash & Maintenance is a
               dedicated nationwide provider
@@ -95,6 +88,7 @@ const Home = () => {
               life and uphold their material
               warranties.
             </p>
+            <br />
           </Col>
         </Row>
       </Container>
