@@ -24,13 +24,15 @@ const Home = () => {
         <Row>
           <Col className="text-center">
             <Image
+              alt="Trusted service"
               wdith="65"
               height="65"
-              src="https://img.icons8.com/external-outline-stroke-bomsymbols-/91/null/external-eco-green-energy-ecology-outline-stroke-bomsymbols--6.png"
+              src="https://img.icons8.com/ios-filled/100/null/new-zealand-navigation.png"
             />
           </Col>
           <Col className="text-center">
             <Image
+              alt="Warranty upheld"
               wdith="65"
               height="65"
               src="https://img.icons8.com/pastel-glyph/100/null/security-checked--v1.png"
@@ -38,9 +40,10 @@ const Home = () => {
           </Col>
           <Col className="text-center">
             <Image
+              alt="Eco-safe solution"
               wdith="65"
               height="65"
-              src="https://img.icons8.com/ios-filled/100/null/new-zealand-navigation.png"
+              src="https://img.icons8.com/external-outline-stroke-bomsymbols-/91/null/external-eco-green-energy-ecology-outline-stroke-bomsymbols--6.png"
             />
           </Col>
         </Row>
@@ -49,7 +52,7 @@ const Home = () => {
         <Row>
           <Col>
             <h5 className="text-center">
-              Eco-Safe Solution
+              Trusted Service
             </h5>
           </Col>
           <Col>
@@ -59,7 +62,7 @@ const Home = () => {
           </Col>
           <Col>
             <h5 className="text-center">
-              Trusted Service
+              Eco-Safe Solution
             </h5>
           </Col>
         </Row>
