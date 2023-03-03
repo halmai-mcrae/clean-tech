@@ -1,15 +1,15 @@
-import React from "react"
-import { Routes, Route } from "react-router-dom"
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 
 // Components
-import NavBar from "./components/NavBar"
-import Home from "./components/Home"
-import Contact from "./components/Contact"
-import About from "./components/About"
-import Banner from "./components/Banner"
+import NavBar from './components/NavBar'
+import Home from './components/Home'
+import Contact from './components/Contact'
+import About from './components/About'
+import Banner from './components/Banner'
 
 // Styles
-import "./App.css"
+import './App.css'
 
 function App() {
   return (

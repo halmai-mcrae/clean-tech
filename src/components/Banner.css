@@ -5,10 +5,10 @@
 
 .banner-container h1 {
   position: absolute;
-  font-weight: bold;
-  font-size: 6vw;
-  top: 75%;
-  left: 45%;
+  font-size: 7vw;
+  font-weight: 600;
+  top: 72%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   white-space: nowrap;
@@ -18,11 +18,11 @@
 .banner-container h3 {
   position: absolute;
   top: 90%;
-  left: 35%;
+  left: 37%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-weight: bolder;
-  font-size: 5vw;
+  font-weight: 600;
+  font-size: 6vw;
   white-space: nowrap;
-  color: #e16314;
+  color: #e66c21;
 }
