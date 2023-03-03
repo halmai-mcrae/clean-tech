@@ -51,17 +51,32 @@ const Home = () => {
       <Container>
         <Row>
           <Col>
-            <h5 className="text-center">
+            <h5
+              className="text-center"
+              style={{
+                color: '#6c757d',
+              }}
+            >
               Trusted Service
             </h5>
           </Col>
           <Col>
-            <h5 className="text-center">
+            <h5
+              className="text-center"
+              style={{
+                color: '#6c757d',
+              }}
+            >
               Uphold Warranties
             </h5>
           </Col>
           <Col>
-            <h5 className="text-center">
+            <h5
+              className="text-center"
+              style={{
+                color: '#6c757d',
+              }}
+            >
               Eco-Safe Solution
             </h5>
           </Col>

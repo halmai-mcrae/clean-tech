@@ -133,7 +133,10 @@ const NavBar = () => {
           <Nav.Link href="mailto:admin@cleantechmaintenance.co.nz">
             <FaEnvelope />
           </Nav.Link>
-          <Nav.Link href="https://linkedin.com/in/example">
+          <Nav.Link
+            target="_blank"
+            href="https://www.linkedin.com/company/clean-tech-maintenance/"
+          >
             <FaLinkedin />
           </Nav.Link>
         </Nav>
