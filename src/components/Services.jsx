@@ -11,15 +11,15 @@ import cleantech0 from '../assets/cleantech0.png'
 import cleantech1 from '../assets/cleantech1.png'
 import cleantech2 from '../assets/cleantech2.png'
 import cleantech3 from '../assets/cleantech3.png'
-// import cleantech4 from "../assets/cleantech4.png"
 
-//icons
+// Icons
 import { GrBusinessService } from 'react-icons/gr'
 import { MdOutlineHealthAndSafety } from 'react-icons/md'
 import { GiSolarPower } from 'react-icons/gi'
 import { SiSeat } from 'react-icons/si'
 import { BsShieldFillCheck } from 'react-icons/bs'
 
+// Styles
 import './Services.css'
 
 const Services = () => {
@@ -43,7 +43,7 @@ const Services = () => {
               <BsShieldFillCheck /> Warranty
               Protection
             </h6>
-            <p className="service-text">
+            <p>
               Your roof and/or cladding is a
               significant investment, and we want
               to ensure it is protected. We
@@ -64,7 +64,7 @@ const Services = () => {
               <MdOutlineHealthAndSafety /> Health
               and Safety
             </h6>
-            <p className="service-text">
+            <p>
               Health and safety is our number one
               priority. We maintain a high
               standard of workplace consciousness
@@ -106,7 +106,7 @@ const Services = () => {
             <h6 className="text-center">
               <GiSolarPower /> Solar Panels
             </h6>
-            <p className="service-text">
+            <p>
               Solar panel washes require a more
               sensitive approach. This service we
               perform by manual soft wash and
@@ -122,7 +122,7 @@ const Services = () => {
               unwashed areas, which require
               washing every six months.
             </p>
-            <p className="service-text">
+            <p>
               If not maintained, these areas will
               experience large amounts of
               moisture, moss and debris build up
@@ -135,7 +135,7 @@ const Services = () => {
             <h6 className="text-center">
               <SiSeat /> Stadium Service
             </h6>
-            <p className="service-text">
+            <p>
               Stadium washes and maintenance is an
               essential aspect of any sports or
               entertainment venue. Providing
