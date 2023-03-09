@@ -1,0 +1,26 @@
+.home {
+  margin-top: 1rem;
+}
+
+.landing {
+  background: linear-gradient(
+    45deg,
+    #e5e5e5 60%,
+    #3c8297 40%
+  );
+}
+
+.home-icons {
+  margin: 1rem;
+}
+
+@media (max-width: 820px) {
+  .home-icons {
+    height: 40px;
+    width: 40px;
+  }
+
+  .icontext {
+    font-size: 13px;
+  }
+}

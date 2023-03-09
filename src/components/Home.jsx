@@ -13,6 +13,12 @@ import Packages from './Packages'
 
 // Icons
 import { IoLogoReact } from 'react-icons/io5'
+import warranty from '../assets/warranty.png'
+import newzealand from '../assets/newzealand.png'
+import ecosafe from '../assets/ecosafe.png'
+
+// Styles
+import './Home.css'
 
 const Home = () => {
   const Services = lazy(() =>
@@ -20,72 +26,67 @@ const Home = () => {
   )
   return (
     <>
+      <div className="landing">
+        <Container>
+          <Row>
+            <Col className="text-center">
+              <Image
+                className="home-icons"
+                alt="Trusted service"
+                wdith="60"
+                height="60"
+                src={newzealand}
+              />
+            </Col>
+            <Col className="text-center">
+              <Image
+                className="home-icons"
+                alt="Warranty upheld"
+                wdith="60"
+                height="60"
+                src={warranty}
+              />
+            </Col>
+            <Col className="text-center">
+              <Image
+                className="home-icons"
+                alt="Eco-safe solution"
+                wdith="60"
+                height="60"
+                src={ecosafe}
+              />
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row>
+            <Col>
+              <h5 className="text-center icontext">
+                Trusted
+                <br />
+                Service
+              </h5>
+            </Col>
+            <Col>
+              <h5 className="text-center icontext">
+                Uphold
+                <br />
+                Warranties
+              </h5>
+            </Col>
+            <Col>
+              <h5 className="text-center icontext">
+                Eco-Safe
+                <br />
+                Solution
+              </h5>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <Container>
         <Row>
-          <Col className="text-center">
-            <Image
-              alt="Trusted service"
-              wdith="65"
-              height="65"
-              src="https://img.icons8.com/ios-filled/100/null/new-zealand-navigation.png"
-            />
-          </Col>
-          <Col className="text-center">
-            <Image
-              alt="Warranty upheld"
-              wdith="65"
-              height="65"
-              src="https://img.icons8.com/pastel-glyph/100/null/security-checked--v1.png"
-            />
-          </Col>
-          <Col className="text-center">
-            <Image
-              alt="Eco-safe solution"
-              wdith="65"
-              height="65"
-              src="https://img.icons8.com/external-outline-stroke-bomsymbols-/91/null/external-eco-green-energy-ecology-outline-stroke-bomsymbols--6.png"
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col>
-            <h5
-              className="text-center"
-              style={{
-                color: '#6c757d',
-              }}
-            >
-              Trusted Service
-            </h5>
-          </Col>
-          <Col>
-            <h5
-              className="text-center"
-              style={{
-                color: '#6c757d',
-              }}
-            >
-              Uphold Warranties
-            </h5>
-          </Col>
-          <Col>
-            <h5
-              className="text-center"
-              style={{
-                color: '#6c757d',
-              }}
-            >
-              Eco-Safe Solution
-            </h5>
-          </Col>
-        </Row>
-        <hr />
-      </Container>
-      <Container>
-        <Row>
-          <h4 className="text-center">
+          <h4 className="text-center home">
             <IoLogoReact /> Commercial Service
             Plans
           </h4>
