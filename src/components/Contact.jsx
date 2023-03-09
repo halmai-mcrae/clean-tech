@@ -46,7 +46,7 @@ const Contact = () => {
   }
 
   return (
-    <Container>
+    <Container className="contact">
       <Row>
         <Col md={6}>
           <h4>

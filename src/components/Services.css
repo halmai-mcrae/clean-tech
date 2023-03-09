@@ -4,6 +4,8 @@
   object-fit: contain;
 }
 
-.text-center {
-  margin: 1rem;
+.title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }

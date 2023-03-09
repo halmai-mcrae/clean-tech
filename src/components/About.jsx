@@ -24,7 +24,7 @@ import './About.css'
 const About = () => {
   return (
     <>
-      <h4 className="text-center">
+      <h4 className="text-center about">
         <IoLogoReact />
         About
       </h4>

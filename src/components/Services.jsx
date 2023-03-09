@@ -39,7 +39,7 @@ const Services = () => {
             />
           </Col>
           <Col md={6}>
-            <h6 className="text-center">
+            <h6 className="text-center title">
               <BsShieldFillCheck /> Warranty
               Protection
             </h6>
@@ -60,7 +60,7 @@ const Services = () => {
             </p>
           </Col>
           <Col md={6}>
-            <h6 className="text-center">
+            <h6 className="text-center title">
               <MdOutlineHealthAndSafety /> Health
               and Safety
             </h6>
@@ -76,7 +76,7 @@ const Services = () => {
               employees are IRATA working at
               heights qualified.{' '}
             </p>
-            <p className="service-text">
+            <p>
               Safe accessibility and a stable
               working platform is a key ingredient
               to our day to day operations. We
@@ -103,7 +103,7 @@ const Services = () => {
             />
           </Col>
           <Col md={6}>
-            <h6 className="text-center">
+            <h6 className="text-center title">
               <GiSolarPower /> Solar Panels
             </h6>
             <p>
@@ -132,7 +132,7 @@ const Services = () => {
             </p>
           </Col>
           <Col>
-            <h6 className="text-center">
+            <h6 className="text-center title">
               <SiSeat /> Stadium Service
             </h6>
             <p>

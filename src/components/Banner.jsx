@@ -14,9 +14,6 @@ const Banner = () => {
         id="banner"
         src={banner}
         alt="Banner"
-        style={{
-          marginTop: '5rem',
-        }}
         fluid
       />
       <h1>Commercial Roof Maintenance.</h1>
