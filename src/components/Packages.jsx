@@ -26,34 +26,34 @@ const Packages = () => {
               className="text-center"
               style={{ whiteSpace: 'nowrap' }}
             >
-              <MdOtherHouses /> Existing Structure
+              <MdOtherHouses /> New Structure
               Maintenance Plan
             </h6>
             <hr />
             <p>
-              Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore
-              et dolore magna aliqua.
+              Designed to maintain your warranty
+              obligations, keeping your investment
+              protected and looking brand new for
+              years to come
             </p>
             <ul>
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Tailored to your
+                specific warranty requirements for
+                ensured securtiy
               </li>
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Certifcate of health
               </li>
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Two annual inspections
+                and detailed service reports
               </li>
             </ul>
             <h6 className="text-center">
               <a href={''} target="_blank">
                 <AiFillFilePdf /> Download PDF
-                Infosheet.
+                Infosheet
               </a>
             </h6>
           </Col>
@@ -62,34 +62,34 @@ const Packages = () => {
               className="text-center content"
               style={{ whiteSpace: 'nowrap' }}
             >
-              <MdOutlineOtherHouses /> New
-              Substrate Maintenance Plan
+              <MdOutlineOtherHouses /> Existing
+              Stucture Maintenance Plan
             </h6>
             <hr className="content"></hr>
             <p className="content">
-              Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore
-              et dolore magna aliqua.
+              Customised for each individual job
+              to extend the life of your roof and
+              cladding, and provide solutions for
+              wear and tear
             </p>
             <ul className="content">
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Tailored to your
+                specific warranty and care
+                requirements for peace of mind
               </li>
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Certifcate of health
               </li>
               <li>
-                <BsCheck /> Lorem ipsum dolor sit
-                amet.
+                <BsCheck /> Two annual inspections
+                and detailed service reports
               </li>
             </ul>
             <h6 className="text-center content">
               <a href={''} target="_blank">
                 <AiFillFilePdf /> Download PDF
-                Infosheet.
+                Infosheet
               </a>
             </h6>
           </Col>
