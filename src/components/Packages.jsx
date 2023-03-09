@@ -40,7 +40,7 @@ const Packages = () => {
               <li>
                 <BsCheck /> Tailored to your
                 specific warranty requirements for
-                ensured securtiy
+                ensured security
               </li>
               <li>
                 <BsCheck /> Certifcate of health
