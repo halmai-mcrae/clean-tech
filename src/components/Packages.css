@@ -25,10 +25,14 @@ li {
 @media screen and (max-width: 490px) {
   .package-card-0,
   .package-card-1,
-  p,
-  li {
-    font-size: 11px;
-    max-height: 37vh;
+  .package-card-0 p,
+  .package-card-1 p,
+  .package-card-0 ul,
+  .package-card-1 ul,
+  .package-card-0 li,
+  .package-card-1 li {
+    font-size: 12px;
+    max-height: 40vh;
   }
 }
 

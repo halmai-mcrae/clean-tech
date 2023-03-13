@@ -86,18 +86,6 @@ const Contact = () => {
             </div>
           </div>
           <br />
-          {/* <h5>Links</h5>
-          <ul className="list-unstyled">
-            <li>
-              <a href="#">Twitter</a>
-            </li>
-            <li>
-              <a href="#">Facebook</a>
-            </li>
-            <li>
-              <a href="#">Instagram</a>
-            </li>
-          </ul> */}
         </Col>
         <Col md={6}>
           <Form ref={form} onSubmit={sendEmail}>
