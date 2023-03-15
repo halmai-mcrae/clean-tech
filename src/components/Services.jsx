@@ -25,7 +25,7 @@ import './Services.css'
 const Services = () => {
   return (
     <>
-      <h4 className="text-center">
+      <h4 className="text-center home">
         <GrBusinessService /> Our Services
       </h4>
       <Container className="jumbotron">

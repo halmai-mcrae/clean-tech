@@ -16,6 +16,9 @@ import {
 // Styles
 import './Packages.css'
 
+// PDFs
+import TempInfo from '../assets/TempInfoPDFWebsite.pdf'
+
 const Packages = () => {
   return (
     <>
@@ -51,7 +54,11 @@ const Packages = () => {
               </li>
             </ul>
             <h6 className="text-center">
-              <a href={''} target="_blank">
+              <a
+                href={TempInfo}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillFilePdf /> Download PDF
                 Infosheet
               </a>
@@ -87,7 +94,11 @@ const Packages = () => {
               </li>
             </ul>
             <h6 className="text-center content">
-              <a href={''} target="_blank">
+              <a
+                href={TempInfo}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillFilePdf /> Download PDF
                 Infosheet
               </a>
