@@ -132,9 +132,9 @@ const Contact = () => {
               />
             </Form.Group>
             <Button
+              className="secondary"
               variant="secondary"
               type="submit"
-              style={{ margin: '10px' }}
             >
               Submit
             </Button>

@@ -17,9 +17,17 @@
     #276578
   );
   color: white;
+  box-shadow: -3px -3px 7px -1px #fff,
+    5px 5px 9px -3px rgb(0 0 0 / 30%);
 }
 
 .contact-card a {
   text-decoration: none;
   color: white;
+}
+
+.secondary {
+  margin-top: 1rem;
+  box-shadow: -3px -3px 7px -1px #fff,
+    5px 5px 9px -3px rgb(0 0 0 / 30%);
 }

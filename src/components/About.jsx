@@ -43,19 +43,19 @@ const About = () => {
               workmanship and exceptional customer
               service.
             </p>
-            <h6>
+            <h5>
               <FaThumbsUp /> Tested Maintenance
               Solution
-            </h6>
+            </h5>
             <p className="service-text">
               Our washes have been tested and
               assessed as per NZBC C/AS2:2019.
               Group rating of 2-S on Type 1 or 1-S
               on Type 3 substrates.
             </p>
-            <h6>
+            <h5>
               <FaEnvira /> Eco-Friendly
-            </h6>
+            </h5>
             <p className="service-text">
               Water-based 100% Asbestos and
               Halogen free Low VOC (Limits, 5 gram
@@ -63,10 +63,10 @@ const About = () => {
               according to NZS 5433.
             </p>
 
-            <h6>
+            <h5>
               <FaCheckCircle /> Ease of
               Application
-            </h6>
+            </h5>
             <p className="service-text">
               Our single component cleaners are
               designed for easy, slow release
@@ -77,17 +77,17 @@ const About = () => {
               solutions can serve multiple
               purposes.
             </p>
-            <h6>
+            <h5>
               <FaLayerGroup /> Multi Substrate
-            </h6>
+            </h5>
             <p className="service-text">
               Our washes are suitable for use on
               stainless steel, zinc, aluminium,
               solar panels and structural steel.
             </p>
-            <h6>
+            <h5>
               <IoConstructSharp /> Durable
-            </h6>
+            </h5>
             <p className="service-text">
               We use only the correct materials as
               specified to ensure your roof stays
@@ -98,9 +98,9 @@ const About = () => {
               providing long-lasting protection
               and peace of mind.
             </p>
-            <h6>
+            <h5>
               <IoAddCircle /> Reliable
-            </h6>
+            </h5>
             <p className="service-text">
               When it comes to your maintenance,
               reliability is key. That"s why we
